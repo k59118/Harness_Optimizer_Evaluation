@@ -1,10 +1,9 @@
-# <img src="assets/shor.png" width="32" valign="middle"> Towards Direct Evaluation of Harness Optimizers via Priority Ranking (SHOR)
+# <img src="assets/shor.png" width="32" valign="middle"> Towards Direct Evaluation of Harness Optimizers via Priority Ranking
 
 [![PDF](https://img.shields.io/badge/PDF-Preprint-red?logo=arxiv)](assets/Shor.pdf)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-informational?logo=huggingface)](https://huggingface.co/datasets/MANGSEOK123/SHOR)
 
-SHOR is the **first evaluation framework** for directly evaluating coding agents as harness optimizers.
-
+This work takes a first step towards the **direct evaluation of harness optimizers** via quantifying their **step-level optimization ability** in a **cost- and time-efficient manner**.
 
 ## Overview
 <p align="center">
@@ -12,24 +11,15 @@ SHOR is the **first evaluation framework** for directly evaluating coding agents
 </p>
 
 
-SHOR focuses on the optimizer’s **step-level decision quality**. In practice, harness optimizers often make harmful intermediate updates such as redundant workflows, unsafe behaviors, or performance-degrading prompts. SHOR addresses this limitation through **priority ranking**, a lightweight evaluation paradigm that measures whether an optimizer can correctly identify which harness component should be prioritized for improvement.
-
 ### Key Features
 
-- **Direct Optimizer Evaluation**: Evaluates harness optimizers themselves rather than only the final agent performance
-- **Priority Ranking**: Measures whether optimizers correctly prioritize prompts, tools, workflows, and memories for updates
-- **Human-Verified Dataset**: Includes 182 curated optimization scenarios collected from real optimization trajectories
+- **Direct Optimizer Evaluation**: Evaluates harness optimizers directly rather than using target agents' task improvement as proxy
+- **Priority Ranking**: Quantifying optimizer ability to prioritize harness components (i.e, prompt, tool, workflow, and memory) that are expected to bring more improvement to the target agent
+- **Human-Verified Dataset, SHOR**: Includes 182 curated optimization scenarios collected from real optimization trajectories
 - **Multi-Domain Coverage**: Supports SWE-bench Verified, GAIA, Spider 2.0-lite, and τ²-Bench
-- **Cost-Efficient Evaluation**: Over 8× cheaper and 17× faster than conventional rollout-based evaluation
+- **Cost-Efficient Evaluation**: By utilizing SHOR, evaluating harness optimizer via priority ranking is on average 8× cheaper and 17× faster than conventional end-improvement observation from full harness optimization.
 
 ### Dataset Statistics
-
-- **Raw Agent Harnesses**
-  - GAIA: 160
-  - τ²-Bench: 160
-  - SWE-bench Verified: 160
-  - Spider 2.0-lite: 156
-  - Total: 636 Harnesses (41 more than the 595 harnesses mentioned in the paper)
 
 - **SHOR**
   - 182 human-verified harnesses

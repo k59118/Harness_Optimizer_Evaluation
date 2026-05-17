@@ -29,7 +29,7 @@ SHOR focuses on the optimizer’s **step-level decision quality**. In practice, 
   - τ²-Bench: 160
   - SWE-bench Verified: 160
   - Spider 2.0-lite: 156
-  - Total: 636 Harnesses
+  - Total: 636 Harnesses (41 more than the 595 harnesses mentioned in the paper)
 
 - **SHOR**
   - 182 human-verified harnesses

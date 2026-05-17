@@ -29,7 +29,7 @@
     "error_type": "6. Performance-Degrading Modifications",
     "agent_description": "An agent that adds the number_search tool to gaia_answer_trim to aggregate numbers based on frequency from multiple search snippets for number/year questions. number_search.py aggregates numbers from search results and returns the most frequently cited value. Added a workflow to SYSTEM_TEMPLATE that uses number_search → quick_verify in sequence for numeric/year questions.",
     "why_error": "The inline boilerplate removal logic of _clean_solution always fails with a runtime error. At the top of the code, the re module is imported with the alias _re, but within the _clean_solution function, re.compile() is called directly without the alias. This results in a NameError: name 're' is not defined every time the function is executed. This error is quietly caught by the except Exception block of AnswerTrimAgent, leaving only a log and causing the inline removal feature to not actually work.",
-    "where_error": "import re as _re\n\n\n_WIKI_BOILERPLATE = _re.compile(\n    ...\n)\n\n_TRAILING_CRUD = _re.compile(\n    ...\n)\n\n\ndef _clean_solution(raw: str) -> str:\n    \"\"\"Remove wiki artifacts and return the first clean line of solution.txt.\"\"\"\n    # First: split on inline \"See also\" or \"References\" that may appear on the same line\n    _INLINE_SPLIT = re.compile(          # ← NameError: 're' not defined (imported as '_re')\n        r\"\\s+(?:See also|References|External links|Further reading|Notes|Citations\"\n        r\"|From Wikipedia|Retrieved|This page was last edited)\",\n        re.IGNORECASE,                   # ← 동일한 문제\n    )"
+    "where_error": "<where_error>\nimport re as _re\n\n\n_WIKI_BOILERPLATE = _re.compile(\n    ...\n)\n\n_TRAILING_CRUD = _re.compile(\n    ...\n)\n\n\ndef _clean_solution(raw: str) -> str:\n    \"\"\"Remove wiki artifacts and return the first clean line of solution.txt.\"\"\"\n    # First: split on inline \"See also\" or \"References\" that may appear on the same line\n    _INLINE_SPLIT = re.compile(          # ← NameError: 're' not defined (imported as '_re')\n        r\"\\s+(?:See also|References|External links|Further reading|Notes|Citations\"\n        r\"|From Wikipedia|Retrieved|This page was last edited)\",\n        re.IGNORECASE,                   # ← Same issue\n    )\n</where_error>"
   },
   {
     "domain": "spider",
@@ -429,7 +429,7 @@
     "error_type": "6. Performance-Degrading Modifications",
     "agent_description": "An agent implemented to use two existing agents simultaneously (diagnosis before edit, commit memory refresh). It diagnoses and plans at the start, and at an intermediate point, it reviews the actual code to verify the plan and reloads the memory.",
     "why_error": "AllSeedsRetriever + limit=8 + 8 seeds = dynamic memory is always blocked.",
-    "where_error": "class AllSeedsRetriever:                                                                                                                  \n      def retrieve(self, records, ...):\n          seeds = [r for r in records if \"seed\" in r.tags]   # 항상 8개                                                                     \n          others = [r for r in records if \"seed\" not in r.tags]                                                                             \n          combined = seeds + others                                                                                                         \n          return combined[:limit]   # limit=8 → seeds만 반환, others는 0개"
+    "where_error": "<where_error>\nclass AllSeedsRetriever:                                                                                                                  \n      def retrieve(self, records, ...):\n          seeds = [r for r in records if \"seed\" in r.tags]   # always 8                                                                     \n          others = [r for r in records if \"seed\" not in r.tags]                                                                             \n          combined = seeds + others                                                                                                         \n          return combined[:limit]   # limit=8 → only seeds are returned, others are 0\n</where_error>"
   },
   {
     "domain": "swe",
@@ -645,7 +645,7 @@
     "error_type": "2. Hardcoding of Task-Specific Values",
     "agent_description": "During the task, the agent saves the problem-solving plan established in the middle of the task (commit plan) into structured memory. Once the task is completed, it stores the result record, including problem keywords, approach, and whether actual modifications were made. In the next task, it searches past records with similar keywords to provide information on similar problems.",
     "why_error": "Django specific tool",
-    "where_error": "usage=(\n        \"python3 $TOOLS_DIR/agent_tools/py_edit.py django/core/validators.py << 'SPEC'\\n\"\n        '{\"old\": \"    old_code_here\", \"new\": \"    new_code_here\"}\\n'\n        \"SPEC\"\n    ), (이전 스텝에서 누적된 에러)\n\n    usage=(\n        \"python3 $TOOLS_DIR/agent_tools/show_context.py django/core/validators.py 'class URLValidator' --lines 40\\n\"\n        \"python3 $TOOLS_DIR/agent_tools/show_context.py django/db/models/sql/compiler.py 'def get_combinator' --lines 40\"\n    ),"
+    "where_error": "<where_error>\nusage=(\n        \"python3 $TOOLS_DIR/agent_tools/py_edit.py django/core/validators.py << 'SPEC'\\n\"\n        '{\"old\": \"    old_code_here\", \"new\": \"    new_code_here\"}\\n'\n        \"SPEC\"\n    ), (Error accumulated from the previous step)\n\n    usage=(\n        \"python3 $TOOLS_DIR/agent_tools/show_context.py django/core/validators.py 'class URLValidator' --lines 40\\n\"\n        \"python3 $TOOLS_DIR/agent_tools/show_context.py django/db/models/sql/compiler.py 'def get_combinator' --lines 40\"\n    ),\n</where_error>"
   },
   {
     "domain": "swe",
@@ -661,7 +661,7 @@
     "error_type": "6. Performance-Degrading Modifications",
     "agent_description": "An agent implemented to use two existing agents simultaneously (diagnosis before edit, commit memory refresh). It diagnoses at the start to make a plan, and at an intermediate point, it checks the plan by reviewing the actual code and reloads the memory.",
     "why_error": "AllSeedsRetriever + limit=8 + 8 seeds = dynamic memory is always blocked.",
-    "where_error": "class AllSeedsRetriever:                                                                                                                  \n      def retrieve(self, records, ...):\n          seeds = [r for r in records if \"seed\" in r.tags]   # 항상 8개                                                                     \n          others = [r for r in records if \"seed\" not in r.tags]                                                                             \n          combined = seeds + others                                                                                                         \n          return combined[:limit]   # limit=8 → seeds만 반환, others는 0개"
+    "where_error": "<where_error>\nclass AllSeedsRetriever:                                                                                                                  \n      def retrieve(self, records, ...):\n          seeds = [r for r in records if \"seed\" in r.tags]   # Always 8                                                                     \n          others = [r for r in records if \"seed\" not in r.tags]                                                                             \n          combined = seeds + others                                                                                                         \n          return combined[:limit]   # limit=8 → returns only seeds, 0 others\n</where_error>"
   },
   {
     "domain": "swe",
@@ -669,7 +669,7 @@
     "error_type": "6. Performance-Degrading Modifications",
     "agent_description": "An agent that enforces diagnosis → commit → test-grounded execution",
     "why_error": "The third fallback is missing pytest_arg. If you only run python -m django test, it runs the entire Django test suite (thousands of tests). It will definitely hit the 90-second timeout.",
-    "where_error": "run_tests.py 세 번째 fallback이 전체 테스트 실행 (lines 109-113)\n\n  for cmd in [\n      [\"python\", \"-m\", \"pytest\", pytest_arg, \"-x\", ...],   # 특정 파일 실행\n      [\"python3\", \"-m\", \"pytest\", pytest_arg, \"-x\", ...],  # 특정 파일 실행\n      [\"python\", \"-m\", \"django\", \"test\", \"--verbosity=1\", \"--no-input\"],  # pytest_arg 없음!\n  ]:\n\n  세 번째 fallback에 pytest_arg가 빠져있습니다. python -m django test만 실행하면 Django 전체 테스트 스위트(수천 개)를 돌립니다. 90초\n  timeout에 무조건 걸립니다."
+    "where_error": "<where_error>\nrun_tests.py Third fallback runs entire test suite (lines 109-113)\n\n  for cmd in [\n      [\"python\", \"-m\", \"pytest\", pytest_arg, \"-x\", ...],   # Run specific file\n      [\"python3\", \"-m\", \"pytest\", pytest_arg, \"-x\", ...],  # Run specific file\n      [\"python\", \"-m\", \"django\", \"test\", \"--verbosity=1\", \"--no-input\"],  # Missing pytest_arg!\n  ]:\n\n  The third fallback is missing pytest_arg. If you only run python -m django test, it runs the entire Django test suite (thousands of tests). It will definitely hit the 90-second timeout.\n</where_error>"
   },
   {
     "domain": "swe",
@@ -701,7 +701,7 @@
     "error_type": "2. Hardcoding of Task-Specific Values",
     "agent_description": "An agent that introduced an AST-based Python structure analysis tool to improve search efficiency.",
     "why_error": "The description field that defines the tool and the usage field that informs the agent how to use it have fixed internal paths of Django.",
-    "where_error": "django/db/models/sql/compiler.py와 django/core/validators.py라는 구체적인 Django 소스 코드 경로"
+    "where_error": "<where_error>\nSpecific Django source code paths such as django/db/models/sql/compiler.py and django/core/validators.py\n</where_error>"
   },
   {
     "domain": "swe",
@@ -853,7 +853,7 @@
     "error_type": "5. Overengineering via Excessive Tool or Memory Injection",
     "agent_description": "(Same as above)",
     "why_error": "Continuously synchronize the memory object and session state in execute_actions.",
-    "where_error": "(위와 같음)"
+    "where_error": "<where_error>\n(Same as above)\n</where_error>"
   },
   {
     "domain": "spider",
@@ -877,7 +877,7 @@
     "error_type": "5. Overengineering via Excessive Tool or Memory Injection",
     "agent_description": "An agent with an added profiler tool that checks unique values, the number of nulls, samples, etc., in a column.",
     "why_error": "The agent is supposed to autonomously use tools according to the situation, but it is forced to execute specific commands (Bash, SQL) from STEP 1 to STEP 7 in order, as they are hardcoded in the prompt as text.",
-    "where_error": "SYSTEM_TEMPLATE 내의 # MANDATORY EXPLORATION PROTOCOL # 부분 전체"
+    "where_error": "Within the SYSTEM_TEMPLATE, the entire # MANDATORY EXPLORATION PROTOCOL # section"
   },
   {
     "domain": "spider",
@@ -885,7 +885,7 @@
     "error_type": "2. Hardcoding of Task-Specific Values",
     "agent_description": "An agent that conditionally provides hints based on the result format (0 lines or 1 line).",
     "why_error": "To determine if the result should be multiple lines, very specific words that are likely to appear only in certain domains or test sets, such as per country, per player, per season, each segment, are hardcoded into an array.",
-    "where_error": "_expects_multiple_rows 내의 multi_signals 배열:\n\n\n[\"per country\", \"per player\", \"per season\", \"each segment\" ...]"
+    "where_error": "<where_error>\nmulti_signals array within _expects_multiple_rows:\n\n\n[\"per country\", \"per player\", \"per season\", \"each segment\" ...]\n</where_error>"
   },
   {
     "domain": "spider",
@@ -901,7 +901,7 @@
     "error_type": "5. Overengineering via Excessive Tool or Memory Injection",
     "agent_description": "An agent that enforces a decompose-then-code approach to predefine the output plan before writing SQL.",
     "why_error": "The agent is forced to fill the Thought space, where it should think freely, with a text format that copies four specific items ('OUTPUT PLAN': Columns, Rows, Key computation, Edge cases).",
-    "where_error": "SYSTEM_TEMPLATE 내의 # DECOMPOSE-THEN-CODE PROTOCOL # 부분 전체"
+    "where_error": "<where_error>\nThe entire # DECOMPOSE-THEN-CODE PROTOCOL # section in the SYSTEM_TEMPLATE\n</where_error>"
   },
   {
     "domain": "spider",
@@ -909,7 +909,7 @@
     "error_type": "2. Hardcoding of Task-Specific Values",
     "agent_description": "An agent that identifies the 'for each [entity]' requirement of a task and issues a warning if the number of result rows is significantly less than the actual number of entities in the database.",
     "why_error": "Entity names (such as actor, driver, player) commonly appearing in specific evaluation datasets (like Spider2-Lite) and their corresponding table names (such as film_actor, lap_times) are hardcoded directly into Python dictionaries and lists. It does not function properly when given a database from a different domain.",
-    "where_error": "_HIGH_CARD_ENTITIES 리스트 전체\n\n\n_ENTITY_TABLE_HINTS 딕셔너리 전체"
+    "where_error": "<where_error>\nThe entire _HIGH_CARD_ENTITIES list\n\nThe entire _ENTITY_TABLE_HINTS dictionary\n</where_error>"
   },
   {
     "domain": "tau2",

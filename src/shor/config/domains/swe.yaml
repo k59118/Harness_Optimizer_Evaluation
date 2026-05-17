@@ -1,0 +1,22 @@
+domain: swe
+data_root: data/swe
+trajectory_filename: trajectory.json
+result_artifact_filename: agent.patch
+aggregate_filename: aggregate_summary.json
+summary_layout: per_instance_results
+success_field: resolved
+domain_notes: |
+  SWE-bench Verified: agents fix bugs in real Python repos.
+
+  - validation/summary.json: top-level has trial/agent/subset stats
+    plus a `results[]` array with one entry per instance. Each entry
+    has: instance_id, exit_status, resolved (bool), submission, patch,
+    tests_passed, tests_failed, error, cost, n_steps, report_json
+    (with FAIL_TO_PASS / PASS_TO_PASS / PASS_TO_FAIL splits).
+  - validation/aggregate_summary.json: model name, resolve_rate,
+    total_cost, total_steps.
+  - validation/<instance_id>/agent.patch: the final git diff
+    submitted (small, safe to cat).
+  - Common failure signatures: incomplete_fix (FAIL_TO_PASS still
+    failing), regression (PASS_TO_FAIL non-empty), modified tests
+    (patch touches tests/), noise in patch (new files).

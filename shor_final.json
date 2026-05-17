@@ -1,0 +1,3096 @@
+[
+  {
+    "harness_id": "gaia_refined_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1667,
+      "Prompt": 0.1093,
+      "Memory": 0.0,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.9506,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_noconn_abroad_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.1167,
+      "Prompt": 0.1167,
+      "Memory": -0.0167,
+      "Workflow": -0.1
+    },
+    "kendall_w": 0.931,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "locnav_pattern_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0222,
+      "Prompt": -0.1111,
+      "Memory": -0.0778,
+      "Workflow": -0.0111
+    },
+    "kendall_w": 0.9048,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "edit_retry_recovery",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.2833,
+      "Memory": 0.1833,
+      "Workflow": 0.2
+    },
+    "kendall_w": 0.8933,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_data_scan_tool",
+    "ranking": {
+      "Tool": 1,
+      "Memory": 2,
+      "Prompt": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2,
+      "Prompt": -0.0333,
+      "Memory": 0.0333,
+      "Workflow": -0.1
+    },
+    "kendall_w": 0.8621,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "db_aware_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.1889,
+      "Prompt": 0.1333,
+      "Memory": -0.0222,
+      "Workflow": 0.0444
+    },
+    "kendall_w": 0.8391,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "commit_memory_refresh",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.0555,
+      "Prompt": -0.0444,
+      "Memory": 0.0445,
+      "Workflow": 0.0111
+    },
+    "kendall_w": 0.8333,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "sql_capture_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.1167,
+      "Prompt": 0.15,
+      "Memory": 0.2167,
+      "Workflow": 0.1333
+    },
+    "kendall_w": 0.8133,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "query_plan_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.3,
+      "Prompt": 0.25,
+      "Memory": 0.3667,
+      "Workflow": 0.3333
+    },
+    "kendall_w": 0.7971,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_budget_success_v2",
+    "ranking": {
+      "Workflow": 1,
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 4
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.0167,
+      "Memory": 0.0,
+      "Workflow": 0.1
+    },
+    "kendall_w": 0.7778,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "adaptive_edit_loop",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0111,
+      "Prompt": -0.0334,
+      "Memory": 0.0222,
+      "Workflow": -0.0111
+    },
+    "kendall_w": 0.7778,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "edit_recipe_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.2167,
+      "Memory": 0.2,
+      "Workflow": 0.15
+    },
+    "kendall_w": 0.7333,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_abroad_noconn_memory",
+    "ranking": {
+      "Prompt": 1,
+      "Tool": 2,
+      "Workflow": 3,
+      "Memory": 4
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.0667,
+      "Memory": -0.2833,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.7262,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_placeholder_guard",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1833,
+      "Prompt": 0.2333,
+      "Memory": 0.1667,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.7262,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "gaia_recency_search",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.0333,
+      "Memory": -0.0667,
+      "Workflow": 0.0877
+    },
+    "kendall_w": 0.7262,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_decompose_tool",
+    "ranking": {
+      "Tool": 1,
+      "Memory": 2,
+      "Workflow": 3,
+      "Prompt": 4
+    },
+    "average_sr": {
+      "Tool": 0.1833,
+      "Prompt": -0.0333,
+      "Memory": 0.0333,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.7011,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "baseline_memory_mini",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.0889,
+      "Prompt": 0.0112,
+      "Memory": -0.0222,
+      "Workflow": -0.1
+    },
+    "kendall_w": 0.7011,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "attribute_aware_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2111,
+      "Prompt": 0.2445,
+      "Memory": 0.2222,
+      "Workflow": 0.1667
+    },
+    "kendall_w": 0.6905,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_line_scan_protocol",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.15,
+      "Prompt": 0.0667,
+      "Memory": 0.0167,
+      "Workflow": -0.25
+    },
+    "kendall_w": 0.6905,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "incremental_sql_prompt",
+    "ranking": {
+      "Prompt": 1,
+      "Tool": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.15,
+      "Memory": 0.0667,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.6812,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "db_cascade_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.1333,
+      "Prompt": -0.0833,
+      "Memory": -0.15,
+      "Workflow": -0.25
+    },
+    "kendall_w": 0.6782,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "copy_exact_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0556,
+      "Prompt": 0.0889,
+      "Memory": 0.0333,
+      "Workflow": 0.0444
+    },
+    "kendall_w": 0.6667,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "schema_reflect_combo",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.25,
+      "Prompt": 0.3,
+      "Memory": 0.2833,
+      "Workflow": 0.1833
+    },
+    "kendall_w": 0.6667,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "schema_sampler_tool",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": 0.2833,
+      "Memory": 0.15,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.6548,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_deterministic_clean",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1333,
+      "Prompt": 0.0667,
+      "Memory": 0.0167,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.6528,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "external_doc_first_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Workflow": 3,
+      "Memory": 4
+    },
+    "average_sr": {
+      "Tool": 0.2667,
+      "Prompt": 0.2333,
+      "Memory": 0.05,
+      "Workflow": 0.1026
+    },
+    "kendall_w": 0.6322,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_abroad_detect_loop",
+    "ranking": {
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3,
+      "Tool": 4
+    },
+    "average_sr": {
+      "Tool": 0.1333,
+      "Prompt": 0.35,
+      "Memory": 0.1833,
+      "Workflow": 0.15
+    },
+    "kendall_w": 0.631,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "inline_file_editor",
+    "ranking": {
+      "Prompt": 1,
+      "Workflow": 2,
+      "Tool": 3,
+      "Memory": 4
+    },
+    "average_sr": {
+      "Tool": 0.2,
+      "Prompt": 0.2833,
+      "Memory": 0.0667,
+      "Workflow": 0.2167
+    },
+    "kendall_w": 0.619,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "approach_pivot_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.1333,
+      "Prompt": -0.0778,
+      "Memory": -0.0222,
+      "Workflow": -0.0444
+    },
+    "kendall_w": 0.6092,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "periodic_diff_review",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.0889,
+      "Prompt": -0.0222,
+      "Memory": -0.1722,
+      "Workflow": -0.0556
+    },
+    "kendall_w": 0.6049,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_contract_guard_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.35,
+      "Prompt": 0.3,
+      "Memory": 0.2667,
+      "Workflow": 0.15
+    },
+    "kendall_w": 0.9405,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "csv_compare_tool",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.0333,
+      "Memory": -0.0333,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.9231,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_announce_intercept_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": 0.0333,
+      "Memory": 0.0167,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.8788,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_action_aware_loop",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.2833,
+      "Memory": 0.3333,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.8571,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_device_batch_loop",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.25,
+      "Memory": 0.1333,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.8462,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_conv_script_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.2833,
+      "Prompt": 0.1167,
+      "Memory": 0.0833,
+      "Workflow": 0.2833
+    },
+    "kendall_w": 0.8391,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "data_verify_protocol_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": -0.1,
+      "Memory": 0.05,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.6786,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_dbpedia_tool",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.1167,
+      "Memory": 0.2667,
+      "Workflow": 0.2167
+    },
+    "kendall_w": 0.6533,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "db_name_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": -0.1667,
+      "Memory": -0.0167,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.6444,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_concise_answer_v2",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.3167,
+      "Prompt": 0.3833,
+      "Memory": 0.35,
+      "Workflow": 0.15
+    },
+    "kendall_w": 0.6322,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "count_sanity_check_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.15,
+      "Prompt": 0.1167,
+      "Memory": 0.0667,
+      "Workflow": 0.0333
+    },
+    "kendall_w": 0.625,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "budget_commit_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": 0.1667,
+      "Memory": 0.1,
+      "Workflow": 0.1167
+    },
+    "kendall_w": 0.625,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "brief_submission_protocol",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": 0.0667,
+      "Memory": 0.0167,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.6049,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_data_acct_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": 0.3333,
+      "Memory": 0.0167,
+      "Workflow": 0.1333
+    },
+    "kendall_w": 0.8621,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "task_decomp_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0333,
+      "Prompt": 0.0444,
+      "Memory": -0.0111,
+      "Workflow": -0.05
+    },
+    "kendall_w": 0.8272,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_extract_tool",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": -0.0833,
+      "Memory": -0.0667,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.7701,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "diagnosis_first_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.0,
+      "Memory": 0.05,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.7083,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_cot_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.1167,
+      "Prompt": -0.05,
+      "Memory": 0.0833,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.6548,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "cot_verify_loop",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0112,
+      "Prompt": 0.0111,
+      "Memory": 0.0556,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.641,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "sql_struct_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.0667,
+      "Prompt": -0.1389,
+      "Memory": -0.1056,
+      "Workflow": -0.1722
+    },
+    "kendall_w": 0.625,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "task_type_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0055,
+      "Prompt": -0.0111,
+      "Memory": 0.0444,
+      "Workflow": -0.0445
+    },
+    "kendall_w": 0.6111,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_last_line_extract",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": 0.0667,
+      "Memory": 0.0333,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.5733,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "gaia_labeled_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.05,
+      "Memory": 0.1611,
+      "Workflow": 0.2111
+    },
+    "kendall_w": 0.5556,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_fetch_qa",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.0167,
+      "Memory": 0.05,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.5278,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_abroad_device_roaming_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0333,
+      "Prompt": 0.05,
+      "Memory": -0.0667,
+      "Workflow": -0.15
+    },
+    "kendall_w": 0.5172,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "column_audit_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0444,
+      "Prompt": -0.0111,
+      "Memory": 0.0333,
+      "Workflow": -0.0222
+    },
+    "kendall_w": 0.5152,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_abroad_loop_guard",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0333,
+      "Prompt": 0.0333,
+      "Memory": -0.05,
+      "Workflow": -0.0833
+    },
+    "kendall_w": 0.5128,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_account_authority_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.0833,
+      "Memory": 0.0167,
+      "Workflow": -0.05
+    },
+    "kendall_w": 0.5119,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "verbal_sql_check_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0055,
+      "Prompt": -0.0111,
+      "Memory": 0.05,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.5,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_hypothesis_verify_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.15,
+      "Prompt": -0.0833,
+      "Memory": 0.05,
+      "Workflow": 0.35
+    },
+    "kendall_w": 0.7976,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_hypothesis_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": -0.1667,
+      "Memory": 0.2833,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.7867,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "context_git_verify",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": 0.1167,
+      "Memory": -0.05,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.7576,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_evidence_cite_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": 0.05,
+      "Memory": 0.2,
+      "Workflow": 0.1833
+    },
+    "kendall_w": 0.7222,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "decompose_then_sql_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": -0.0667,
+      "Memory": 0.0833,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.7037,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_fix_scan_completeness_loop",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.35,
+      "Prompt": 0.4167,
+      "Memory": 0.2833,
+      "Workflow": 0.25
+    },
+    "kendall_w": 0.6548,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "gaia_cost_aware_loop",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": -0.0,
+      "Memory": 0.4333,
+      "Workflow": 0.0333
+    },
+    "kendall_w": 0.5714,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_gated_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": -0.2667,
+      "Memory": -0.25,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.5686,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "edit_verify_protocol",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.1,
+      "Prompt": -0.2167,
+      "Memory": -0.0667,
+      "Workflow": -0.1
+    },
+    "kendall_w": 0.5632,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_episode_note_tool",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.0833,
+      "Memory": -0.0833,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.5632,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "approach_kind_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": 0.25,
+      "Memory": 0.0167,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.5595,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "context_before_edit",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.4,
+      "Prompt": 0.3,
+      "Memory": 0.4,
+      "Workflow": 0.3667
+    },
+    "kendall_w": 0.5385,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "empty_diff_budget_guard",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 4,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": 0.0,
+      "Memory": -0.0333,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.5278,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "db_snapshot_tool",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": -0.0167,
+      "Memory": -0.0333,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.5152,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "exit_aware_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": 0.2,
+      "Memory": 0.3,
+      "Workflow": 0.1167
+    },
+    "kendall_w": 0.977,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_action_seq_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.0667,
+      "Prompt": 0.1833,
+      "Memory": 0.0167,
+      "Workflow": -0.05
+    },
+    "kendall_w": 0.9762,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "failure_memory_retrieval",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.1333,
+      "Memory": 0.0,
+      "Workflow": -0.1
+    },
+    "kendall_w": 0.9506,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "db_discovery_first_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.25,
+      "Prompt": 0.1167,
+      "Memory": 0.2333,
+      "Workflow": 0.1667
+    },
+    "kendall_w": 0.9111,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "mid_journey_coach_loop",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.2,
+      "Prompt": 0.1167,
+      "Memory": 0.1667,
+      "Workflow": 0.2333
+    },
+    "kendall_w": 0.8974,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_keyword_memory_v2",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1667,
+      "Prompt": 0.1,
+      "Memory": 0.1167,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.8788,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "empty_diff_recovery",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": -0.0833,
+      "Memory": 0.0167,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.8333,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "format_check_tool",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.0333,
+      "Prompt": -0.1167,
+      "Memory": -0.0667,
+      "Workflow": -0.1
+    },
+    "kendall_w": 0.8056,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_format_sanitize",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.2333,
+      "Prompt": -0.1833,
+      "Memory": 0.0833,
+      "Workflow": 0.1
+    },
+    "kendall_w": 0.7778,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_kg_combo_tool",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": -0.0167,
+      "Memory": 0.2167,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.7778,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_failure_avoid_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": -0.1,
+      "Memory": 0.1667,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.7333,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_id_scrub_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.3167,
+      "Prompt": 0.15,
+      "Memory": 0.1333,
+      "Workflow": -0.1
+    },
+    "kendall_w": 0.7333,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "failure_write_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 4,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0333,
+      "Prompt": 0.1,
+      "Memory": 0.0167,
+      "Workflow": 0.1167
+    },
+    "kendall_w": 0.7011,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_format_strict_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.1667,
+      "Prompt": -0.05,
+      "Memory": -0.0333,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.7011,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "cte_decompose_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2167,
+      "Prompt": 0.1833,
+      "Memory": 0.0833,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.6923,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_dual_channel_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.5833,
+      "Prompt": 0.15,
+      "Memory": 0.1833,
+      "Workflow": 0.55
+    },
+    "kendall_w": 0.6923,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "budget_aware_error_coach",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": 0.0,
+      "Memory": 0.0667,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.6905,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_efficiency_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.0667,
+      "Memory": 0.5333,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.6905,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_billing_fact_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2167,
+      "Prompt": 0.1333,
+      "Memory": 0.1167,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.6905,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_device_batch_bill_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1667,
+      "Prompt": 0.2,
+      "Memory": 0.2167,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.6905,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_failure_pattern_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 4,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": 0.0167,
+      "Memory": -0.05,
+      "Workflow": 0.1167
+    },
+    "kendall_w": 0.6552,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_device_guide_tool",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1833,
+      "Prompt": 0.1667,
+      "Memory": 0.2167,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.6444,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "codeblock_extractor",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.2333,
+      "Memory": 0.05,
+      "Workflow": 0.15
+    },
+    "kendall_w": 0.6429,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "compact_schema_tool",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0333,
+      "Prompt": 0.0667,
+      "Memory": 0.0833,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.6364,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_line_diagnose_tool",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.1833,
+      "Memory": 0.1667,
+      "Workflow": 0.1333
+    },
+    "kendall_w": 0.6364,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "null_scout_tool",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": 0.1,
+      "Memory": 0.15,
+      "Workflow": 0.2
+    },
+    "kendall_w": 0.6092,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_dedup_call_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2667,
+      "Prompt": 0.15,
+      "Memory": 0.1167,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.5952,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "cross_check_sql_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.1,
+      "Memory": 0.2,
+      "Workflow": 0.0833
+    },
+    "kendall_w": 0.5802,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "edit_reflection_agent",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.0667,
+      "Memory": -0.0333,
+      "Workflow": -0.05
+    },
+    "kendall_w": 0.5802,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_kw_mem_v3",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.1667,
+      "Prompt": -0.25,
+      "Memory": -0.2,
+      "Workflow": 0.2167
+    },
+    "kendall_w": 0.5802,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_gated_conf_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.3333,
+      "Prompt": 0.4167,
+      "Memory": -0.0167,
+      "Workflow": 0.3167
+    },
+    "kendall_w": 0.5556,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "formula_sanity_terminate_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.1,
+      "Memory": 0.1333,
+      "Workflow": 0.2
+    },
+    "kendall_w": 0.5385,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "telecom_bill_select_tool",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2833,
+      "Prompt": 0.3667,
+      "Memory": 0.25,
+      "Workflow": 0.1333
+    },
+    "kendall_w": 0.5385,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_device_protocol_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.15,
+      "Memory": 0.0333,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.5385,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "csv_written_verify_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.1833,
+      "Prompt": 0.2333,
+      "Memory": 0.3,
+      "Workflow": 0.2167
+    },
+    "kendall_w": 0.5309,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "early_commit_loop",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1333,
+      "Prompt": 0.1833,
+      "Memory": 0.1,
+      "Workflow": 0.1667
+    },
+    "kendall_w": 0.5238,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "diff_size_guard_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": 0.05,
+      "Memory": 0.0667,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.5238,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_empty_answer_retry",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.0833,
+      "Memory": 0.0667,
+      "Workflow": 0.1
+    },
+    "kendall_w": 0.5238,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_bill_id_tool",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.2667,
+      "Prompt": 0.2,
+      "Memory": 0.2833,
+      "Workflow": 0.25
+    },
+    "kendall_w": 0.5238,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "empty_result_diagnosis_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1833,
+      "Prompt": 0.0333,
+      "Memory": 0.05,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.5172,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "composite_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0333,
+      "Prompt": -0.1333,
+      "Memory": -0.1167,
+      "Workflow": -0.05
+    },
+    "kendall_w": 0.5172,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "plan_before_sql_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2167,
+      "Prompt": 0.15,
+      "Memory": 0.0667,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.977,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "issue_decompose_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": 0.0333,
+      "Memory": -0.1,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.977,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "result_preview_terminate",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.1833,
+      "Prompt": -0.0167,
+      "Memory": -0.1333,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.9762,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "result_template_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.2167,
+      "Prompt": 0.2333,
+      "Memory": 0.1,
+      "Workflow": 0.1667
+    },
+    "kendall_w": 0.9762,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "patch_scope_tool",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.1167,
+      "Prompt": 0.1,
+      "Memory": 0.05,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.9762,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "fix_struct_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.15,
+      "Prompt": 0.35,
+      "Memory": 0.1167,
+      "Workflow": 0.25
+    },
+    "kendall_w": 0.9506,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "query_structure_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": 0.1167,
+      "Memory": 0.1,
+      "Workflow": 0.0333
+    },
+    "kendall_w": 0.881,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "output_declaration_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.2333,
+      "Memory": 0.0833,
+      "Workflow": 0.1167
+    },
+    "kendall_w": 0.8788,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_multi_strategy_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": -0.2167,
+      "Memory": -0.2667,
+      "Workflow": -0.1333
+    },
+    "kendall_w": 0.8391,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "outcome_pattern_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.2,
+      "Prompt": 0.05,
+      "Memory": 0.2,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.8222,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "guardrail_no_test_edit",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": -0.15,
+      "Memory": -0.1833,
+      "Workflow": -0.0833
+    },
+    "kendall_w": 0.8056,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "outcome_col_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": 0.0333,
+      "Memory": 0.0167,
+      "Workflow": 0.0833
+    },
+    "kendall_w": 0.7778,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "plan_exec_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.2167,
+      "Memory": 0.1333,
+      "Workflow": 0.1833
+    },
+    "kendall_w": 0.7778,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "issue_pattern_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.1833,
+      "Prompt": 0.0,
+      "Memory": -0.2167,
+      "Workflow": -0.2
+    },
+    "kendall_w": 0.7778,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "minimal_diff_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": -0.0667,
+      "Memory": -0.05,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.7778,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_answer_type_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": 0.0,
+      "Memory": 0.25,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.7778,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "kind_memory_reflect",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.0333,
+      "Prompt": 0.1,
+      "Memory": -0.15,
+      "Workflow": -0.0833
+    },
+    "kendall_w": 0.7333,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_search_pivot_loop",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.0,
+      "Memory": 0.2667,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.6905,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_answer_checklist_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": 0.0333,
+      "Memory": 0.0333,
+      "Workflow": 0.15
+    },
+    "kendall_w": 0.5385,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "gaia_source_verify_loop",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.3667,
+      "Prompt": -0.0333,
+      "Memory": -0.0833,
+      "Workflow": 0.0333
+    },
+    "kendall_w": 0.9259,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "sql_error_coach_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.2,
+      "Prompt": 0.1667,
+      "Memory": -0.0167,
+      "Workflow": 0.1
+    },
+    "kendall_w": 0.8974,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "output_loop_breaker",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.2667,
+      "Memory": 0.1333,
+      "Workflow": 0.1667
+    },
+    "kendall_w": 0.8974,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "sql_error_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.0667,
+      "Memory": 0.1833,
+      "Workflow": 0.1667
+    },
+    "kendall_w": 0.8391,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_source_ladder_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": -0.3,
+      "Memory": -0.0833,
+      "Workflow": -0.3833
+    },
+    "kendall_w": 0.8222,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "shared_col_topology_tool",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0333,
+      "Prompt": 0.0167,
+      "Memory": 0.1833,
+      "Workflow": 0.0833
+    },
+    "kendall_w": 0.7778,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "sql_pattern_store_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.0333,
+      "Memory": 0.1667,
+      "Workflow": 0.1167
+    },
+    "kendall_w": 0.7284,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "table_data_profiler",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.0667,
+      "Memory": 0.15,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.6905,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_strategy_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.35,
+      "Prompt": -0.0667,
+      "Memory": 0.0167,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.6905,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "patch_file_tool",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 4,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.1167,
+      "Prompt": -0.05,
+      "Memory": -0.3333,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.5714,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "sql_result_profiler",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.1,
+      "Memory": 0.0167,
+      "Workflow": 0.0333
+    },
+    "kendall_w": 0.5556,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "post_stage_verify",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.0833,
+      "Prompt": -0.1,
+      "Memory": 0.0,
+      "Workflow": -0.1333
+    },
+    "kendall_w": 0.5556,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "sql_structure_memory",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.0833,
+      "Prompt": -0.1167,
+      "Memory": -0.1,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.5238,
+    "domain": "spider"
+  },
+  {
+    "harness_id": "gaia_success_weight_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.3,
+      "Prompt": -0.0167,
+      "Memory": -0.0333,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.5172,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_resolve_seq_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1833,
+      "Prompt": 0.0667,
+      "Memory": 0.0,
+      "Workflow": -0.05
+    },
+    "kendall_w": 1.0,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "quick_verify_tool",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.1167,
+      "Prompt": -0.0333,
+      "Memory": 0.0833,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.977,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_post_resume_inject",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.4167,
+      "Prompt": 0.25,
+      "Memory": 0.0667,
+      "Workflow": 0.2167
+    },
+    "kendall_w": 0.977,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "progress_checkpoint_loop",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 3,
+      "Memory": 4,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": -0.0333,
+      "Memory": -0.05,
+      "Workflow": 0.0833
+    },
+    "kendall_w": 0.9506,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_topic_partition_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": 0.0667,
+      "Memory": 0.2167,
+      "Workflow": 0.0333
+    },
+    "kendall_w": 0.9259,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_multi_fix_batch_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.0667,
+      "Prompt": 0.25,
+      "Memory": 0.1,
+      "Workflow": 0.0833
+    },
+    "kendall_w": 0.9111,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_no_phantom_tools_prompt",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.15,
+      "Prompt": 0.0833,
+      "Memory": 0.1,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.9111,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_suspension_rules_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 2,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.2167,
+      "Prompt": 0.2,
+      "Memory": 0.1333,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.9111,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_phone_match_inject",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.1167,
+      "Prompt": 0.0667,
+      "Memory": 0.0667,
+      "Workflow": -0.15
+    },
+    "kendall_w": 0.881,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_obs_inject_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.05,
+      "Prompt": 0.0333,
+      "Memory": 0.1167,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.8788,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_tool_use_mandate",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": -0.2,
+      "Prompt": -0.1167,
+      "Memory": -0.05,
+      "Workflow": -0.3167
+    },
+    "kendall_w": 0.8788,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "str_replace_budget_agent",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.15,
+      "Memory": 0.1667,
+      "Workflow": 0.0
+    },
+    "kendall_w": 0.8391,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "gaia_type_tagged_memory",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1833,
+      "Prompt": -0.2,
+      "Memory": -0.0833,
+      "Workflow": 0.0833
+    },
+    "kendall_w": 0.8391,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_systematic_order_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": 0.2333,
+      "Memory": -0.05,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.8333,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "str_replace_loop_guard",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.0833,
+      "Prompt": 0.0,
+      "Memory": -0.1,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.7778,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_mms_protocol_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": 0.2,
+      "Memory": 0.05,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.7778,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_phantom_mismatch_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.0833,
+      "Prompt": 0.2667,
+      "Memory": 0.2,
+      "Workflow": 0.1667
+    },
+    "kendall_w": 0.7778,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_pre_transfer_guard",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": 0.1,
+      "Memory": 0.1333,
+      "Workflow": 0.0167
+    },
+    "kendall_w": 0.7778,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_phase_guard_loop",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": 0.25,
+      "Memory": 0.1333,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.7333,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_uncalled_tools_inject",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0,
+      "Prompt": 0.25,
+      "Memory": -0.0333,
+      "Workflow": -0.0667
+    },
+    "kendall_w": 0.7011,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_no_contract_halluc_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.25,
+      "Prompt": 0.2833,
+      "Memory": 0.2,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.6905,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_no_policy_halluc_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1,
+      "Prompt": 0.2833,
+      "Memory": 0.15,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.6905,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_refuel_scan_prompt",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 1,
+      "Memory": 3,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.1333,
+      "Prompt": 0.3833,
+      "Memory": 0.1167,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.6905,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "gaia_category_tool",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 2,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": -0.2667,
+      "Prompt": -0.3667,
+      "Memory": -0.2333,
+      "Workflow": -0.2
+    },
+    "kendall_w": 0.6667,
+    "domain": "gaia"
+  },
+  {
+    "harness_id": "telecom_line_health_tool",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 4,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.0167,
+      "Prompt": -0.0833,
+      "Memory": 0.0167,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.6533,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_no_think_line_verify_prompt",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.1167,
+      "Prompt": 0.0,
+      "Memory": 0.0667,
+      "Workflow": 0.1
+    },
+    "kendall_w": 0.6429,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_plan_limit_memory",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.0833,
+      "Prompt": -0.0167,
+      "Memory": 0.1333,
+      "Workflow": 0.0667
+    },
+    "kendall_w": 0.6429,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_system_first_protocol",
+    "ranking": {
+      "Tool": 1,
+      "Prompt": 3,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": -0.0167,
+      "Memory": -0.0167,
+      "Workflow": -0.15
+    },
+    "kendall_w": 0.6429,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "precommit_diff_guard",
+    "ranking": {
+      "Tool": 2,
+      "Prompt": 4,
+      "Memory": 3,
+      "Workflow": 1
+    },
+    "average_sr": {
+      "Tool": 0.0167,
+      "Prompt": -0.0833,
+      "Memory": -0.05,
+      "Workflow": 0.0833
+    },
+    "kendall_w": 0.6092,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_triage_route_memory",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 2,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.15,
+      "Prompt": 0.2333,
+      "Memory": 0.1667,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.5952,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "str_replace_empty_guard",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": 0.05,
+      "Prompt": 0.0833,
+      "Memory": 0.15,
+      "Workflow": 0.05
+    },
+    "kendall_w": 0.5833,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_turn_aware_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 3,
+      "Memory": 1,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": 0.0667,
+      "Prompt": 0.0833,
+      "Memory": 0.15,
+      "Workflow": 0.1167
+    },
+    "kendall_w": 0.5833,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "stall_detect_loop",
+    "ranking": {
+      "Tool": 4,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 3
+    },
+    "average_sr": {
+      "Tool": -0.0833,
+      "Prompt": 0.0167,
+      "Memory": 0.05,
+      "Workflow": -0.0333
+    },
+    "kendall_w": 0.5556,
+    "domain": "swe"
+  },
+  {
+    "harness_id": "telecom_no_preannounce_roam_prompt",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 2,
+      "Memory": 1,
+      "Workflow": 4
+    },
+    "average_sr": {
+      "Tool": 0.25,
+      "Prompt": 0.2667,
+      "Memory": 0.3167,
+      "Workflow": 0.1833
+    },
+    "kendall_w": 0.5309,
+    "domain": "tau2"
+  },
+  {
+    "harness_id": "telecom_prose_guard_loop",
+    "ranking": {
+      "Tool": 3,
+      "Prompt": 1,
+      "Memory": 4,
+      "Workflow": 2
+    },
+    "average_sr": {
+      "Tool": -0.0333,
+      "Prompt": 0.0167,
+      "Memory": -0.1,
+      "Workflow": -0.0167
+    },
+    "kendall_w": 0.5,
+    "domain": "tau2"
+  }
+]

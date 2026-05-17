@@ -1,0 +1,21 @@
+domain: spider
+data_root: data/spider
+trajectory_filename: trajectory.json
+result_artifact_filename: result.csv
+aggregate_filename: aggregate_summary.json
+summary_layout: per_instance_results
+success_field: resolved
+domain_notes: |
+  Spider: agents generate SQL queries from natural-language questions
+  against given DB schemas.
+
+  - validation/summary.json: top-level trial stats plus `results[]`
+    array with one entry per instance. Each entry has: instance_id,
+    resolved (bool), score, submission (the SQL), cost, n_steps,
+    trajectory_path, result_path.
+  - validation/aggregate_summary.json: model, resolve_rate, total
+    cost / steps.
+  - validation/<instance_id>/result.csv: the rows the SQL returned
+    (small, safe to cat).
+  - Common failure signatures: wrong column / table picked, JOIN
+    miss, schema misread, aggregation mistakes, syntax errors.

@@ -1,0 +1,22 @@
+domain: gaia
+data_root: data/gaia
+trajectory_filename: mini_swe_trajectory.json
+result_artifact_filename: result.json
+aggregate_filename: null
+summary_layout: aggregate_only
+success_field: passed
+domain_notes: |
+  GAIA: open-domain reasoning + tool use; agents answer factual
+  questions that may require web search, code, file inspection.
+
+  - validation/summary.json: aggregate stats only — total, correct,
+    accuracy, parse_failed, timed_out, avg_runtime_seconds,
+    total_cost, backend_counts, output_dir. NO per-instance results
+    array.
+  - Per-instance details: validation/<instance_id>/result.json with
+    keys: task_id, level, question, answer, expected, passed (bool),
+    judge, exit_status, n_steps, cost, duration_seconds.
+  - There is NO aggregate_summary.json — summary.json itself is
+    the aggregate.
+  - Common failure signatures: parse_failed, timed_out, hallucinated
+    answer, web fetch errors, file-tool misuse, gave up early.

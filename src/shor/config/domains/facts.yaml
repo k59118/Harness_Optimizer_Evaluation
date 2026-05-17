@@ -1,0 +1,24 @@
+domain: facts
+data_root: data/facts
+trajectory_filename: mini_swe_trajectory.json
+result_artifact_filename: result.json
+aggregate_filename: null
+summary_layout: aggregate_only
+success_field: was_correct
+domain_notes: |
+  FACTS: long-form factual QA where agents must produce grounded,
+  citation-supported answers.
+
+  - validation/summary.json: aggregate stats only — total, correct,
+    accuracy, parse_failed, timed_out, avg_runtime_seconds,
+    backend_counts, output_dir. NO per-instance results array.
+  - Per-instance details: validation/<instance_id>/result.json with
+    keys: example_id, dataset, gold_answer, prediction, citations,
+    reasoning_summary, was_correct (bool), parse_failed, timed_out,
+    grade, runtime_seconds, backend, metadata, error,
+    submission_path, raw_submission.
+  - There is NO aggregate_summary.json — summary.json itself is
+    the aggregate.
+  - Common failure signatures: parse_failed (output format wrong),
+    missing or wrong citations, hallucinated facts, timed_out,
+    grade=incorrect with reasoning_summary explaining why.

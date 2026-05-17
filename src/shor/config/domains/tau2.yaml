@@ -1,0 +1,23 @@
+domain: tau2
+data_root: data/tau2
+trajectory_filename: mini_swe_trajectory.json
+result_artifact_filename: result.json
+aggregate_filename: null
+summary_layout: aggregate_only
+success_field: passed
+domain_notes: |
+  τ²-bench: simulated customer-service / agent-vs-user dialog tasks
+  in domains like telecom support.
+
+  - validation/summary.json: aggregate stats only — total, correct,
+    accuracy, parse_failed, timed_out, avg_runtime_seconds,
+    total_cost_usd, total_n_calls, avg_cost_per_task,
+    backend_counts, output_dir. NO per-instance results array.
+  - Per-instance details: validation/<instance_id>/result.json with
+    keys: task_id, original_task_id, reward (numeric), passed (bool),
+    error, cost_usd, n_calls.
+  - There is NO aggregate_summary.json — summary.json itself is
+    the aggregate.
+  - Common failure signatures: passed=false with low reward, error
+    populated, conversation goes off-script, agent fails to invoke
+    correct tool / schema, timed_out.

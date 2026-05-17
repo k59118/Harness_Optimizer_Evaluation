@@ -1,0 +1,6 @@
+# Core SHOR runtime
+pyyaml>=6.0.3
+tqdm>=4.67.3
+
+# Data download helper script
+huggingface_hub>=0.32.0

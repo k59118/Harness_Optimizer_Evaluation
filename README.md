@@ -48,7 +48,7 @@ export LLM_API_KEY=your_api_key        # optional for Openhands-cli
 export LLM_BASE_URL=https://your-proxy.example.com/v1       # optional for Openhands-cli
 ```
 
-### 2. Raw Agent Data Download
+### 2. Data Download
 
 ```bash
 bash scripts/download_shor_data.sh
@@ -92,6 +92,9 @@ python src/shor/run_shor.py --optimizer your_optimizer_name
 
 # Run only the first 10
 python src/shor/run_shor.py --optimizer your_optimizer_name --limit 10
+
+# Run in Parrallel
+python src/shor/run_shor.py --optimizer your_optimizer_name --parallel 4
 ```
 
 ### 5. View Results
@@ -112,11 +115,11 @@ TBD
 
 ```bash
 .
-├── data/                        # Raw agent assets
+├── data/                        # Agent assets including Shor, Shor-flaw
 │   ├── gaia/                    # GAIA-domain agent assets
 │   └── ...                      # Other domain data
 ├── scripts/
-│   └── download_shor_data.sh    # Download SHOR raw data
+│   └── download_shor_data.sh    # Script for downloading data
 └── src/
     ├── harness_optimizer/       # Harness optimizer interfaces and built-in adapters
     └── shor/                    # SHOR execution, configuration, and evaluation pipeline

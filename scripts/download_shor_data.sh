@@ -4,7 +4,7 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DATA_DIR="$REPO_ROOT/data"
 TMP_PARENT="$REPO_ROOT/.tmp"
-REPO_ID="MANGSEOK123/SHOR"
+REPO_ID="LangAGI-Lab/SHOR"
 ARCHIVE_NAME="raw_artifacts.tar.zst"
 
 if [[ -e "$DATA_DIR" ]]; then

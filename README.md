@@ -1,7 +1,7 @@
 # <img src="assets/shor.png" width="32" valign="middle"> Towards Direct Evaluation of Harness Optimizers via Priority Ranking
 
 [![PDF](https://img.shields.io/badge/PDF-Preprint-red?logo=arxiv)](assets/Shor.pdf)
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-informational?logo=huggingface)](https://huggingface.co/datasets/MANGSEOK123/SHOR)
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-informational?logo=huggingface)](https://huggingface.co/datasets/LangAGI-Lab/SHOR)
 
 This work takes a first step towards the **direct evaluation of harness optimizers** via quantifying their **step-level optimization ability** in a **cost- and time-efficient manner**.
 

@@ -1,6 +1,6 @@
 # <img src="assets/shor.png" width="32" valign="middle"> Towards Direct Evaluation of Harness Optimizers via Priority Ranking
 
-[![PDF](https://img.shields.io/badge/PDF-Preprint-red?logo=arxiv)](assets/Shor.pdf)
+[![arXiv](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv)](https://arxiv.org/abs/2605.22505)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-informational?logo=huggingface)](https://huggingface.co/datasets/LangAGI-Lab/SHOR)
 
 This work takes a first step towards the **direct evaluation of harness optimizers** via quantifying their **step-level optimization ability** in a **cost- and time-efficient manner**.
@@ -108,7 +108,12 @@ python src/shor/eval/evaluate_shor_results.py result/your_optimizer_name
 If you use this repository in your research, please cite:
 
 ```bibtex
-TBD
+@article{ong2026towards,
+  title={Towards Direct Evaluation of Harness Optimizers via Priority Ranking},
+  author={Ong, Kai Tzu-iunn and Kang, Minseok and Choi, Dongwook and Cho, Junhee and Kim, Seungju and Lim, Seungwon and Jang, Geunha and Oh, Minwoo and Jeong, Bogyung and Kim, Sunghwan and others},
+  journal={arXiv preprint arXiv:2605.22505},
+  year={2026}
+}
 ```
 
 ## Project Structure

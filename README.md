@@ -1,5 +1,7 @@
 # <img src="assets/shor.png" width="32" valign="middle"> Towards Direct Evaluation of Harness Optimizers via Priority Ranking
 
+**Accepted at NeurIPS 2026 🎉**
+
 [![arXiv](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv)](https://arxiv.org/abs/2605.22505)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-informational?logo=huggingface)](https://huggingface.co/datasets/LangAGI-Lab/SHOR)
 
